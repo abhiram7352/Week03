@@ -24,6 +24,7 @@ class StudentRecord {
 
     // Constructor to create an empty student record
     public StudentRecord() {
+
         this.head = null;
     }
 
@@ -122,7 +123,9 @@ class StudentRecord {
 public class Record {
     public static void main(String[] args) {
         StudentRecord record = new StudentRecord();
+
         record.addStudentEnd(1, "Aarav Patel", 15, "A"); // Add student at the end
+
         record.addStudentBeginning(2, "Meera Sharma", 16, "B"); // Add student at the beginning
         record.addStudentPosition(3, "Ishita Gupta", 14, "C", 1); // Add student at position 1 (after head)
         record.displayStudents(); // Display all students

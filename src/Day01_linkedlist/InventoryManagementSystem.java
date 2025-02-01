@@ -2,6 +2,7 @@ package Day01_linkedlist;
 
 // Node class to represent each item in the inventory
 class Node {
+    public int value;
     String itemName; // Name of the item
     int itemID; // Unique ID of the item
     int quantity; // Quantity of the item
